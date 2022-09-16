@@ -10,10 +10,6 @@ function advice(){
     fetch(advice_url)
     .then(res => res.json())
     .then(data =>advice_data = data);
-    function delay(time) {
-       return new Promise(resolve => setTimeout(resolve, time));
-    }
-    delay(1000).then(() => console.log('ran after 1 second1 passed'));
     var advice = advice_data.slip.advice;
     document.getElementById('api_1z').value = advice;
 }
