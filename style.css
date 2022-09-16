@@ -93,7 +93,6 @@ section div div textarea {
     }
     section div div textarea {
         max-width: 30ch;
-        max-width: 6ch;
         background: none;
         border: none;
     }
