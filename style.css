@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 0.1em;
+}
+body {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #0c192c;
+}
+header {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+header div a {
+    text-decoration: none;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    color: chartreuse;
+}
+header div a img{
+    border-radius: 20px;
+}
+section {
+    border-color: cadetblue;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 40px;
+    padding: 40px;
+    max-width: 400px;
+    max-height: 600px;
+    border-style: solid;
+}
+section div div textarea {
+    background: none;
+    border: none;
+}
+.btn {
+    padding: 12px;
+    background: none;
+    color: #0066ff;
+    cursor: pointer;
+}
+.btn:hover {
+    font-size: 1em;
+}
+@media screen and (max-width: 767px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        letter-spacing: 0.1em;
+    }
+    body {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: #0c192c;
+    }
+    header {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    header div a {
+        text-decoration: none;
+        font-size: 1.5em;
+        letter-spacing: 0.1em;
+        color: chartreuse;
+    }
+    header div a img{
+        border-radius: 20px;
+    }
+    section {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border-color: cadetblue;
+        border-radius: 20px;
+        display: inline-block;
+        margin: 40px;
+        padding: 40px;
+        max-width: 290px;
+        max-height: 500px;
+        border-style: solid;
+    }
+    section div div textarea {
+        max-width: 30ch;
+        max-width: 6ch;
+        background: none;
+        border: none;
+    }
+    .btn {
+        padding: 12px;
+        background: none;
+        color: #0066ff;
+        cursor: pointer;
+    }
+    .btn:hover {
+        font-size: small;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    * {display: none;}
+}
