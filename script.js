@@ -17,7 +17,6 @@ function advice(){
 function joke(){
     fetch(jokes_url)
     .then(res => res.json())
-    await new Promise(resolve => setTimeout(resolve, 1000))
     .then(data =>jokes_data = data);
     var joke = jokes_data.value.joke;
     document.getElementById('api_2z').value = joke;
@@ -25,7 +24,6 @@ function joke(){
 function daddy(){
     fetch(daddy_url, {headers: {'Accept' : 'application/json'}})
     .then(res => res.json())
-    await new Promise(resolve => setTimeout(resolve, 1000))
     .then(data =>daddy_data = data);
     var daddy = daddy_data.joke;
     document.getElementById('api_3z').value = daddy;
